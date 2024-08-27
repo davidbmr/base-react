@@ -52,7 +52,6 @@ export const SelectField = ({
 			{textLabel ? <label style={styles}>{textLabel}</label> : <></>}
 
 			<Dropdown
-				style={{ height: "30px" }}
 				className={style.dropdown__selectfield}
 				value={value}
 				name={name}
