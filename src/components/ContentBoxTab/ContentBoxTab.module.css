@@ -1,0 +1,50 @@
+.contentBox__container {
+	width: 100%;
+	max-width: 1300px;
+	height: fit-content;
+	background-color: #fff;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.box__title {
+	width: 100%;
+	background-color: var(--primary-color-app);
+	padding: 10px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.title__item {
+	text-align: center;
+	color: white;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.box__content {
+	background-color: #fff;
+	padding: 20px;
+}
+
+.sectionTab__container {
+	padding: 0 20px;
+	display: flex;
+}
+.sectionTab__item {
+	background-color: #ececec;
+	width: fit-content;
+	padding: 5px 15px;
+	border-radius: 5px 5px 0 0;
+	border: solid 1px #057bad;
+	border-bottom: none;
+	cursor: pointer;
+
+	font-size: 13px;
+}
+
+.sectionTab__item__active {
+	background-color: #057bad;
+	color: #fff;
+}

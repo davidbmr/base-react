@@ -1,0 +1,27 @@
+.item__group {
+	width: 100%;
+	display: grid;
+	gap: 5px;
+}
+
+.item__column {
+	grid-template-columns: 1fr;
+}
+
+.item__row {
+	grid-template-columns: max-content 1fr;
+	align-items: center;
+}
+
+.icon__container {
+	width: 30px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	cursor: pointer;
+	background-color: var(--primary-color-app);
+	color: #fff;
+	border-radius: 0 5px 5px 0;
+}

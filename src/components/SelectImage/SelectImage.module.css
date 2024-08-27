@@ -1,0 +1,7 @@
+input[type="file"]::-webkit-file-upload-button {
+    display: none;
+}
+
+.donator__Img {
+    padding: 0px 0px 0px 10px;
+}

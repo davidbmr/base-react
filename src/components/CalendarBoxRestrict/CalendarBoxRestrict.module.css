@@ -1,0 +1,25 @@
+.highlight {
+	background-color: #1e90ff; /* Color azul similar al de la imagen */
+	border-radius: 50%; /* Hace que el fondo sea circular */
+	padding: 10px; /* Ajuste del padding para centrar el texto */
+	height: 40px; /* Altura fija para alinear los círculos */
+	width: 40px; /* Ancho fijo para alinear los círculos */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.react-calendar__tile--active {
+	background-color: #1e90ff; /* Color azul para la fecha seleccionada */
+	color: white; /* Texto en blanco para la fecha seleccionada */
+	border-radius: 50%; /* Circulo */
+}
+
+.react-calendar__tile {
+	max-width: 100%; /* Asegura que los elementos no se rompan */
+	height: 40px;
+	width: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

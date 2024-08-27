@@ -1,0 +1,42 @@
+.container__main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  width: fit-content;
+}
+
+.container__main h4 {
+  font-size: 1.5em;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.container__card {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.container__card img {
+  width: 10em;
+}
+
+.container__card__information {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.container__card__information__item {
+  display: flex;
+  gap: 0.5em;
+}
+
+.container__card__information span:first-of-type {
+  color: rgb(73, 70, 70);
+}
+
+.container__card__information span:nth-of-type(2) {
+  font-weight: bold;
+  text-transform: uppercase;
+}

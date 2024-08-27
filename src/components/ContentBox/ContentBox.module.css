@@ -1,0 +1,30 @@
+.contentBox__container {
+	width: 100%;
+	max-width: 1500px;
+	height: fit-content;
+	background-color: #fff;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.box__title {
+	width: 100%;
+	background-color: var(--primary-color-app);
+	padding: 5px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+}
+.title__item {
+	text-align: center;
+	color: white;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.box__content {
+	background-color: #fff;
+	padding: 20px;
+}

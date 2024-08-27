@@ -1,0 +1,7 @@
+.text_BoxField {
+	width: 250px;
+}
+.containerInputs {
+	display: flex;
+	gap: 5px;
+}
